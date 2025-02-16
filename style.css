@@ -7,27 +7,32 @@ body {
     text-align: center;
     overflow-x: hidden;
 }
+
 header {
     background: linear-gradient(90deg, #ff1493, #ff69b4);
     color: white;
     padding: 20px;
-    font-size: 25px;
+    font-size: 26px;
     font-weight: bold;
     animation: fadeIn 1s ease-in-out;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
+
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(-20px); }
     to { opacity: 1; transform: translateY(0); }
 }
+
 section {
     padding: 20px;
     animation: fadeUp 1s ease-in-out;
 }
+
 @keyframes fadeUp {
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
 }
+
 .content-box {
     background: rgba(255, 20, 147, 0.2);
     padding: 20px;
@@ -37,9 +42,11 @@ section {
     box-shadow: 0 0 15px rgba(255, 20, 147, 0.5);
     transition: transform 0.3s;
 }
+
 .content-box:hover {
     transform: scale(1.05);
 }
+
 button {
     background: #ff1493;
     color: white;
@@ -51,14 +58,39 @@ button {
     transition: 0.3s;
     box-shadow: 0 0 10px rgba(255, 20, 147, 0.7);
 }
+
 button:hover {
     background: #ff69b4;
     transform: scale(1.1);
     box-shadow: 0 0 15px rgba(255, 20, 147, 1);
 }
+
 footer {
     background: #222;
-    padding: 10px;
+    padding: 20px;
     margin-top: 20px;
     color: #ff69b4;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: #ff69b4;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: white;
+    text-shadow: 0 0 10px rgba(255, 20, 147, 1);
 }

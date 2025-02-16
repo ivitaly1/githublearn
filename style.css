@@ -11,7 +11,7 @@ header {
     background: linear-gradient(90deg, #ff1493, #ff69b4);
     color: white;
     padding: 20px;
-    font-size: 26px;
+    font-size: 25px;
     font-weight: bold;
     animation: fadeIn 1s ease-in-out;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
